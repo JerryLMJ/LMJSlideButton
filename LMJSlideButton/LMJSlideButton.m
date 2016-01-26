@@ -44,6 +44,7 @@
 }
 
 - (void)buildView{
+    
     // 背景图片
     _bgImgView = [[UIImageView alloc] initWithFrame:self.bounds];
     [self addSubview:_bgImgView];
